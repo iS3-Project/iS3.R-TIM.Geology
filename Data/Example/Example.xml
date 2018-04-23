@@ -1,0 +1,28 @@
+﻿<Project>
+  <is3:ProjectDefinition xmlns="http://schemas.microsoft.com/client/2007"
+                        xmlns:is3="clr-namespace:IS3.Core;assembly=IS3.Core"
+                        xmlns:g="clr-namespace:IS3.Core.Graphics;assembly=IS3.Core"
+                        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                        GeometryServiceUrl="http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer"
+                        ID="Example"
+                        ProjectTitle="iS3模板"
+                        LocalDatabaseName="Example"
+                        DefaultMapID="BaseMap">
+  </is3:ProjectDefinition>
+  <!--<Domain Name="Geology" Type="Geology">
+    <ObjsDefinition>
+      <Borehole HasGeometry="true" Name="AllBoreholes" GISLayerName="GeoBorehole"
+                TableNameSQL="Boreholes,BoreholeStrataInfo" OrderSQL="[Name]"/>
+    </ObjsDefinition>
+    <TreeDefinition>
+      <Geology  DisplayName="Geology" Desc="See geology report for complete information.">
+          <Borehole DisplayName="Boreholes" Desc="Select a borehole for detail."
+                    RefDomainName="Geology" RefObjsName="AllBoreholes" />
+      </Geology>
+    </TreeDefinition>
+  </Domain>-->
+</Project>
+
+
+
+
